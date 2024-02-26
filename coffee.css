@@ -1,0 +1,109 @@
+/*----------------topsection------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(165, 42, 42, 0.2);
+    margin: 0;
+}
+.header{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    border: none;
+    height: 20rem;
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 8px black;
+}
+#input{
+    width: 75%;
+    padding: 1rem;
+    margin-top: 5.8rem;
+    /* margin-left: 12rem; */
+    border: none;
+    color: white;
+    border-radius: 0.8rem;
+    background-color: rgb(99, 18, 18,1);
+    position: sticky;
+    top: 60px;
+    left: 15%;   
+}
+::placeholder{
+    color: white;
+}
+
+/*-------------------2ndsection------------------------*/
+
+.section1{
+    width: 100%;
+}
+.tea_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3rem;
+    text-align: center;
+}
+.tea_menu img{
+    border-radius: 50%;
+    box-shadow: 2px 5px 8px 3px;
+}
+img:hover{
+    width: 150px;
+    height: 150px;
+}
+.tea_menu p{
+    padding: 0.6rem 0;
+}
+
+/*------------------------lastcontainer---------------------------*/
+
+
+.section2{
+    padding: 3rem 5rem;
+    padding-bottom: 2rem;
+}
+
+.coffeeHouse{
+    color: brown;
+    padding: 1rem 1.4rem;
+    border-radius: 0.2rem;
+    background-color: rgb(165, 42, 42, 0.3);
+    box-shadow: 0px 0px 8px brown;
+    font-size:0.9rem;
+}
+.coffeeList{
+    color: brown;
+    padding: 0.2rem 1.6rem;
+    border-radius: 0.2rem;
+    background-color: rgb(165, 42, 42, 0.3);
+    box-shadow: 0px 0px 8px brown;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+li{
+    padding-bottom:0.4rem;
+    padding-top: 0.4rem;
+}
+.coffeeHouse h3{
+    font-size: 18px;
+   
+}
+.coffeeHouse p{
+    margin-bottom: 0.8rem;
+}
+.coffeeList h3{
+    margin-bottom: -0.1rem;
+    font-size: 18px;
+}
+.coffeeList p{
+    margin-bottom: 0.8rem;
+}
